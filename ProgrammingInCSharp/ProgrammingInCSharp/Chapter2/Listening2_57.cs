@@ -8,7 +8,7 @@ using System.CodeDom.Compiler;
 using System.IO;
 
 /// <summary>
-/// 
+/// よくわからんから調べた→Playground::CodeDom.cs参照
 /// </summary>
 namespace ProgrammingInCSharp.Chapter2
 {

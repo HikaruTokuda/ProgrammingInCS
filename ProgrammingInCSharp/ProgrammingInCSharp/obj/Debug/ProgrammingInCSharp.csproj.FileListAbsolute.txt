@@ -9,3 +9,14 @@ C:\Study\Programming in C#\Source\ProgrammingInCSharp\ProgrammingInCSharp\obj\De
 C:\Study\Programming in C#\Source\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csproj.GenerateResource.cache
 C:\Study\Programming in C#\Source\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.Chapter1.Listening1_32.resources
 C:\Study\Programming in C#\Source\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csproj.ResolveComReference.cache
+C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\ProgrammingInCSharp.exe.config
+C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\ProgrammingInCSharp.exe
+C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\ProgrammingInCSharp.pdb
+C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csprojAssemblyReference.cache
+C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csproj.ResolveComReference.cache
+C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.Chapter1.Listening1_29.resources
+C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.Chapter1.Listening1_32.resources
+C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csproj.GenerateResource.cache
+C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csproj.CoreCompileInputs.cache
+C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.exe
+C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.pdb
