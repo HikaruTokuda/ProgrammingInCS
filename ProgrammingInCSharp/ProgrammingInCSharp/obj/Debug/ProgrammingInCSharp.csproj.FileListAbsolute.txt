@@ -20,3 +20,14 @@ C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\Progr
 C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csproj.CoreCompileInputs.cache
 C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.exe
 C:\Study\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.pdb
+C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csprojAssemblyReference.cache
+C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csproj.ResolveComReference.cache
+C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.Chapter1.Listening1_29.resources
+C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.Chapter1.Listening1_32.resources
+C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csproj.GenerateResource.cache
+C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csproj.CoreCompileInputs.cache
+C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.exe
+C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.pdb
+C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\ProgrammingInCSharp.exe.config
+C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\ProgrammingInCSharp.exe
+C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\ProgrammingInCSharp.pdb

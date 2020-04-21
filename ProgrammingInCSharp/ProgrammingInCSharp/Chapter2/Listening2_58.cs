@@ -7,9 +7,25 @@ using System.Linq.Expressions;
 /// </summary>
 namespace ProgrammingInCSharp.Chapter2
 {
+
     class Listening2_58
     {
         public static void Listening2_58Main()
+        {
+            // This creates an expression tree that describes the square operation.
+            Expression<Func<int, int>> square = CreateSquare();
+
+            // Compile the tree to make an excuteable method and assign it to a delegate.
+            Func<int, int> doSquare = square.Compile();
+
+            // Call the delegate.
+            Console.WriteLine("Square of 2: {0}", doSquare(2));
+
+            Console.ReadKey();
+
+        }
+
+        public static Expression<Func<int, int>> CreateSquare()
         {
             // build the expression tree.
             // Expression<Func<int, int>> square = num => num * num;
@@ -26,13 +42,7 @@ namespace ProgrammingInCSharp.Chapter2
                     squareOperation,
                     new ParameterExpression[] { numParam });
 
-            // Compile the tree to make an excuteable method and assign it to a delegate.
-            Func<int, int> doSquare = square.Compile();
-
-            // Call the delegate.
-            Console.WriteLine("Square of 2: {0}", doSquare(2));
-
-            Console.ReadKey();
+            return square;
 
         }
     }
