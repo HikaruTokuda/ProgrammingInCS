@@ -153,6 +153,7 @@
     <Compile Include="Chapter2\Listening2_61.cs" />
     <Compile Include="Chapter2\Listening2_9.cs" />
     <Compile Include="Chapter2\Listening2_46.cs" />
+    <Compile Include="Listening2_62.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
