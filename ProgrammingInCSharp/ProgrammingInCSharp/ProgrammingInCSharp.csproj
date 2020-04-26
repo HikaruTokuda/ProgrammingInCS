@@ -154,6 +154,9 @@
     <Compile Include="Chapter2\Listening2_61.cs" />
     <Compile Include="Chapter2\Listening2_63.cs" />
     <Compile Include="Chapter2\Listening2_65.cs" />
+    <Compile Include="Chapter2\Listening2_72.cs" />
+    <Compile Include="Chapter2\Listening2_73.cs" />
+    <Compile Include="Chapter2\Listening2_74.cs" />
     <Compile Include="Chapter2\Listening2_9.cs" />
     <Compile Include="Chapter2\Listening2_46.cs" />
     <Compile Include="Listening2_62.cs" />
