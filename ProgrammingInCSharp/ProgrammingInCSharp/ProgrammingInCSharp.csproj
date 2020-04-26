@@ -118,6 +118,7 @@
     <Compile Include="Chapter1\Listening1_82.cs" />
     <Compile Include="Chapter1\Listening1_83.cs" />
     <Compile Include="Chapter1\Listening1_84.cs" />
+    <Compile Include="Chapter2\Listening2_64.cs" />
     <Compile Include="Chapter2\Listening2_1.cs" />
     <Compile Include="Chapter2\Listening2_10.cs" />
     <Compile Include="Chapter2\Listening2_11.cs" />
@@ -151,6 +152,8 @@
     <Compile Include="Chapter2\Listening2_6.cs" />
     <Compile Include="Chapter2\Listening2_60.cs" />
     <Compile Include="Chapter2\Listening2_61.cs" />
+    <Compile Include="Chapter2\Listening2_63.cs" />
+    <Compile Include="Chapter2\Listening2_65.cs" />
     <Compile Include="Chapter2\Listening2_9.cs" />
     <Compile Include="Chapter2\Listening2_46.cs" />
     <Compile Include="Listening2_62.cs" />
