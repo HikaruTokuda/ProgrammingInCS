@@ -31,3 +31,6 @@ C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCShar
 C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\ProgrammingInCSharp.exe.config
 C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\ProgrammingInCSharp.exe
 C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\ProgrammingInCSharp.pdb
+C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\Newtonsoft.Json.dll
+C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\bin\Debug\Newtonsoft.Json.xml
+C:\Git\ProgrammingInCSGit\ProgrammingInCS\ProgrammingInCSharp\ProgrammingInCSharp\obj\Debug\ProgrammingInCSharp.csproj.CopyComplete
