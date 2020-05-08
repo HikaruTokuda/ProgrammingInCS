@@ -9,6 +9,15 @@ using Newtonsoft.Json;
 /// <summary>
 /// JSON and C#
 /// Newtonsoft tutorial.
+/// When you start to use JSON in your programs there are a few things that you need to be aware of from a security and class design point of view:
+/// ・If you want to save and load private properties in a class you need to make these items with the [JsonProperty] attribute.
+/// ・If you want to serialize a aclass using JSON you don't have to add the [Serializable] attribute to the class.You can find outmore about serialization in Skill 2.5 in 
+///   "The Serializable attribute" section.
+/// ・When loading a class back using JSON you need to provide the type into which the result is to be stored.No type information is stored in the file that is stored.
+///   The Length property of the MuscTrack is automatically converted into an integer upon reloading because of the JSON desirializer determines the type of each property in
+///   in the destination object and then performs type conversion automatically. This is a nice example of the use of the reflection techniques shown in Skill 2.5.
+/// ・There is absolutely nothing to prevent changes to the content of the text in aJSON document. If you wish to detect modification of a adocument transferred by JSON you can add 
+///   a checksum or hash property to the type that  is validated by the recipient of the data. In hte next section we will look at encryption techniques you can use to securely send data.
 /// </summary>
 namespace ProgrammingInCSharp.Chapter3
 {
@@ -18,16 +27,22 @@ namespace ProgrammingInCSharp.Chapter3
         public string Title { get; set; }
         public int Length { get; set; }
 
+        private string PrivateData;
+        [JsonProperty]
+        private string PrivateDataWithAttribute;
+
         public override string ToString()
         {
-            return Artist + " " + Title + " " + Length.ToString() + "second long";
+            return Artist + " " + Title + " " + Length.ToString() + "second long  " + "Private: " + PrivateData + "  WithAttribute: " + PrivateDataWithAttribute;
         }
 
-        public MusicTrack3_1(string artist, string title, int length)
+        public MusicTrack3_1(string artist, string title, int length, string privateData, string withAttribute)
         {
             Artist = artist;
             Title = title;
             Length = length;
+            PrivateData = privateData;
+            PrivateDataWithAttribute = withAttribute;
         }
 
 
@@ -38,7 +53,7 @@ namespace ProgrammingInCSharp.Chapter3
     {
         public static void Listening3_1Main()
         {
-            MusicTrack3_1 track = new MusicTrack3_1(artist: "Rob Miles", title: "My Way", length: 150);
+            MusicTrack3_1 track = new MusicTrack3_1(artist: "Rob Miles", title: "My Way", length: 150, privateData: "Private", withAttribute: "WithAttribute");
 
             string json = JsonConvert.SerializeObject(track);
             Console.WriteLine("JSON: ");
@@ -52,7 +67,7 @@ namespace ProgrammingInCSharp.Chapter3
             string[] trackNames = new[] { "My Way", "Your Way", "Their Way", "The Wrong Way" };
             foreach (string trackName in trackNames)
             {
-                MusicTrack3_1 newTrack = new MusicTrack3_1(artist: "Rob Miles", title: trackName, length: 150);
+                MusicTrack3_1 newTrack = new MusicTrack3_1(artist: "Rob Miles", title: trackName, length: 150, privateData: "Private", withAttribute: "WithAttribute");
                 album.Add(newTrack);
             }
 
