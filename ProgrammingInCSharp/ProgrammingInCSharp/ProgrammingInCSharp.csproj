@@ -164,6 +164,7 @@
     <Compile Include="Chapter2\Listening2_46.cs" />
     <Compile Include="Chapter3\Listening3_1.cs" />
     <Compile Include="Chapter3\Listening3_2.cs" />
+    <Compile Include="Chapter3\Listening3_3.cs" />
     <Compile Include="Listening2_62.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
