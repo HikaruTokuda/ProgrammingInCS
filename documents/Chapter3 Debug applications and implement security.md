@@ -12,3 +12,17 @@
 - Listening3_2.cs:Creating XML
 - Listening3_3.cs:Validating JSON
 
+**注意** 
+NuGetコマンド`Install-Package Microsoft.EntityFrameworkCore`は最新バージョン(3.1.1)がインストールされ、VisualStudio2017が対応する.NETCore2.1.*の範囲を超える。
+そのため、上記コマンドでのMicrosoft.EntityFrameworkCoreのインストールはVisualStudio2019で行う必要がある。
+
+# Skill 3.2: Perform symmetric and asymmetric encryption
+この章では以下のような事を確認します。
+- [x] 最適な暗号化アルゴリズムの選定
+- [x] 証書の生成と管理
+- [x] キー制御の実装
+- [x] System.Securityの実装
+- [x] データのハッシュ化
+- [x] 文字列の暗号化
+
+
