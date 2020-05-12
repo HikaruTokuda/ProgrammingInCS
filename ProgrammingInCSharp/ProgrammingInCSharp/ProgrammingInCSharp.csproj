@@ -162,7 +162,12 @@
     <Compile Include="Chapter2\Listening2_74.cs" />
     <Compile Include="Chapter2\Listening2_9.cs" />
     <Compile Include="Chapter2\Listening2_46.cs" />
+    <Compile Include="Chapter3\Lissttening3_16.cs" />
     <Compile Include="Chapter3\Listening3_1.cs" />
+    <Compile Include="Chapter3\Listening3_14.cs" />
+    <Compile Include="Chapter3\Listening3_15.cs" />
+    <Compile Include="Chapter3\Listening3_17.cs" />
+    <Compile Include="Chapter3\Listening3_19.cs" />
     <Compile Include="Chapter3\Listening3_2.cs" />
     <Compile Include="Chapter3\Listening3_3.cs" />
     <Compile Include="Listening2_62.cs" />

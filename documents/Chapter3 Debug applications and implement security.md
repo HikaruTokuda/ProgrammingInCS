@@ -25,4 +25,26 @@ NuGetコマンド`Install-Package Microsoft.EntityFrameworkCore`は最新バー�
 - [x] データのハッシュ化
 - [x] 文字列の暗号化
 
+## この章のサンプルプログラム
+- Listening3_14.cs:AES encryption
+- Listening3_15.cs:AES descryption
+- Listening3_16.cs:RSA encryption
+- Listening3_17.cs:RSA key management
+- Listening3_18.cs:RSA stored key clear(not create codes)
+~~~ CS
+rsaStore.PersistKeyInCsp = false;
+rsaStore.Clear();
+~~~
+-Listening3_19.cs:Machine level keys
+
+**補足**  
+Symmetric KeyとAsymmetriv Key  
+[秘密鍵方式](https://www.pentasecurity.co.jp/pentapro/entry/2017/06/21/%E3%80%903%E5%88%86IT%E3%82%AD%E3%83%BC%E3%83%AF%E3%83%BC%E3%83%89%E3%80%91_%E5%AF%BE%E7%A7%B0%E9%8D%B5_%28Symmetric_Key%29)  
+[公開鍵方式](https://udemy.benesse.co.jp/development/blockchain/public-key-cryptography.html)  
+[AES](https://wa3.i-3-i.info/word15121.html)  
+[X.509証明書](https://www.atmarkit.co.jp/ait/articles/0401/01/news098.html)  
+
+
+
+
 
