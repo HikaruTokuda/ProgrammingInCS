@@ -35,7 +35,16 @@ NuGetコマンド`Install-Package Microsoft.EntityFrameworkCore`は最新バー�
 rsaStore.PersistKeyInCsp = false;
 rsaStore.Clear();
 ~~~
--Listening3_19.cs:Machine level keys
+- Listening3_19.cs:Machine level keys
+- Listening3_20.cs:Signing data
+- Listening3_21.cs:Checksums
+- Listening3_22.cs:Hashing
+~~~ CS
+static void ShowHash(string source)
+{
+    Console.WriteLine("Hash for {0} is {1:X}", source, source.GetHashCode());
+}
+~~~
 
 **補足**  
 Symmetric KeyとAsymmetriv Key  
@@ -43,7 +52,8 @@ Symmetric KeyとAsymmetriv Key
 [公開鍵方式](https://udemy.benesse.co.jp/development/blockchain/public-key-cryptography.html)  
 [AES](https://wa3.i-3-i.info/word15121.html)  
 [X.509証明書](https://www.atmarkit.co.jp/ait/articles/0401/01/news098.html)  
-
+[ハッシュ](https://wa3.i-3-i.info/word11949.html)
+[チェックさむ](https://wa3.i-3-i.info/word1240.html)
 
 
 
