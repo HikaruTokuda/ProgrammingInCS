@@ -71,6 +71,7 @@ static void ShowHash(string source)
 - Listening3_25.cs:Assemblies(create at directory "Listening3_25_Assemblies")  
 - Listening3_26.cs:Strong names(create at directory "Listening3_25_Assemblies")  
   Assembly Password:Thisiskey
+- Listening3_27.cs:EinRT(create at directory "Litening3_27_WinRT")
 
 **補足**  
 [side-by-side実行](https://docs.microsoft.com/ja-jp/dotnet/framework/deployment/side-by-side-execution)  
@@ -78,6 +79,8 @@ static void ShowHash(string source)
 [DLL地獄](https://ja.wikipedia.org/wiki/DLL%E5%9C%B0%E7%8D%84)  
 [厳密な名前付きアセンブリ](http://surferonwww.info/BlogEngine/post/2011/09/13/Strong-named-assembly.aspx)  
 [マネージ アプリケーションに対する厳密な名前による署名](https://docs.microsoft.com/ja-jp/previous-versions/visualstudio/visual-studio-2010/h4fa028b(v=vs.100)?redirectedfrom=MSDN)  
+[アセンブリへの遅延署名](https://docs.microsoft.com/ja-jp/dotnet/standard/assembly/)
+[アセンブリバージョンのリダイレクト](https://docs.microsoft.com/ja-jp/dotnet/framework/configure-apps/redirect-assembly-versions)
 
 **Memo**
 - ildasmの使い方
